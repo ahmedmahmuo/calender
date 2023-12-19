@@ -74,7 +74,6 @@ for (let i = 0; i < weekStrings.length; i++) {
   Week.appendChild(h4)
 }
 let arrWeek = Array.from(Week.children);
-console.log(arrWeek);
 arrWeek[cruntWeek].classList.add('active')
 // day_: //
 for (let i = 0; i < date.m[cruntMonth - 1].d; i++) {
